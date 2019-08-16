@@ -194,7 +194,7 @@ POETRY_LIB = os.path.join(POETRY_HOME, "lib")
 POETRY_LIB_BACKUP = os.path.join(POETRY_HOME, "lib-backup")
 
 
-BIN = """#!/usr/bin/env python
+BIN = """#!/usr/bin/env /root/.pyenv/versions/3.6.2/bin/python
 # -*- coding: utf-8 -*-
 import glob
 import sys
